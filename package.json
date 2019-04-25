@@ -1,0 +1,24 @@
+{
+  "name": "quality-time-ui",
+  "version": "1.0.0",
+  "description": "Zeiterfassungstool als POC für eine Cloudanwendung",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-dierenfeldt/quality-time-ui.git"
+  },
+  "keywords": [
+    "AWS",
+    "cloud",
+    "POC"
+  ],
+  "author": "Marco Dierenfeldt",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/marco-dierenfeldt/quality-time-ui/issues"
+  },
+  "homepage": "https://github.com/marco-dierenfeldt/quality-time-ui#readme"
+}

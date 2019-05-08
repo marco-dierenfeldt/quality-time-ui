@@ -4,7 +4,9 @@
   "description": "Zeiterfassungstool als POC für eine Cloudanwendung",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -13,12 +15,51 @@
   "keywords": [
     "AWS",
     "cloud",
-    "POC"
+    "POC",
+    "VueJS"
   ],
   "author": "Marco Dierenfeldt",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/marco-dierenfeldt/quality-time-ui/issues"
   },
-  "homepage": "https://github.com/marco-dierenfeldt/quality-time-ui#readme"
+  "homepage": "https://github.com/marco-dierenfeldt/quality-time-ui#readme",
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

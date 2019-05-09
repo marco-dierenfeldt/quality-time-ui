@@ -1,5 +1,5 @@
 <template>
-    <HelloWorld msg="Welcome to Quality Time!" />
+  <HelloWorld msg="Welcome to Quality Time!" />
 </template>
 
 <script>
